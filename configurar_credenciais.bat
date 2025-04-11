@@ -1,0 +1,6 @@
+set /p nome="user.name = "
+git config --local user.name "%nome%"
+set /p email="user.email = "
+git config --local user.email "%email%"
+set /p helper="credential.helper = "
+git config --local credential.helper "%helper%"
