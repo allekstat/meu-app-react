@@ -8,9 +8,9 @@ export default function AppScreen()
     return (
         <View>
             <Text>
-                Você está na Index
+                Lista de Personagens
             </Text>
-            <Button title='Ir para Personagens' onPress={() => router.push(`/personagens/`)}/>
+            <Button title='Ver Personagem 1' onPress={() => router.push(`/personagens/${1}`)}/>
         </View>
     );
 };

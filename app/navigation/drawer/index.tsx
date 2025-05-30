@@ -1,9 +1,13 @@
-import { Text } from "react-native";
-export default function DrawerHome()
+import React from "react";
+import { Text, View } from "react-native";
+
+export default function DrawerIndex()
 {
     return (
-        <Text>
-            Menú Principal
-        </Text>
-    );
+        <View>
+            <Text>
+                Você está em Drawer
+            </Text>
+        </View>
+    )
 }

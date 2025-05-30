@@ -1,5 +1,9 @@
 import { Slot } from "expo-router";
-export default function HomeLayout()
+import React from "react";
+
+export default function AppLayout()
 {
-    return <Slot/>;
+    return (
+        <Slot/>
+    )
 }

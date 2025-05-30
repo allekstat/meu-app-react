@@ -1,7 +1,8 @@
-import { Drawer } from "expo-router/drawer";
+import Drawer from "expo-router/drawer";
+
 export default function DrawerLayout()
 {
     return (
         <Drawer></Drawer>
-    );
+    )
 }

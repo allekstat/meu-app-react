@@ -1,12 +1,12 @@
-import { useRouter } from "expo-router";
-import { Button, View } from "react-native";
-export default function OptionsScreen()
+import { Text, View } from "react-native";
+
+export default function StackIndex()
 {
-    const router = useRouter();
     return (
         <View>
-            Estou em Options
-            <Button title='ir para detalhes' onPress={() => router.push('/navigation/stack/details')}/>
+            <Text>
+                Você está em Stack
+            </Text>
         </View>
-    );
-};
+    )
+}
